@@ -1,0 +1,25 @@
+Header
+.nav-border{
+    border-bottom: 2px solid #808080;
+}
+
+/* Book Card */
+.book-card{
+    height: 265px;
+}
+.book-img{
+    height: 150px;
+    width: auto;
+    object-fit: cover;
+    object-position:centexr;
+}
+.btn-style{
+    border: none;
+    background-color: #A57B7C;
+    color: #ffffff;
+    width: 100%;
+}
+
+.btn-style:hover{
+    background-color: #8c6969;
+}
