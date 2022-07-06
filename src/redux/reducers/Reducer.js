@@ -24,6 +24,11 @@ const Reducer = (state = initialState, action) => {
                 ...state,
                 address: action.payload
             }
+        case "REMOVE_FROM_CART":
+            return{
+                ...state,
+                cart : state.cart.filter((book) => book._id !== action.payload)
+            }
         default: return state;
     }
 }

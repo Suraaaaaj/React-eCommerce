@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 export const Header = function () {
-    
     return (
         <div className="nav-border mb-3">
             <Navbar className="mx-3" expand="lg">

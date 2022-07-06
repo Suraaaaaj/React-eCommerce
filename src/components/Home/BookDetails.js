@@ -48,7 +48,7 @@ export const BookDetails = function () {
 
                     </div>
                     <div className='row my-3'>
-                        <Link className='col-sm-3 my-1' to="/">
+                        <Link className='col-sm-3 my-1' to="/cart">
                             <button className="btn-style p-1" onClick={addTOCart}>
                                 Add to cart
                             </button>
