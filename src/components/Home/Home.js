@@ -7,9 +7,10 @@ export const Home = function () {
     const [isLoading, setIsLoading] = useState(true);
 
     const getBooksData = async function () {
-        await axios.get("https://api.jsonbin.io/b/62b86b89449a1f38211c4148/1")
+        await axios.get("https://api.jsonbin.io/v3/b/62d50268b34ef41b73c676da")
             .then((res) => {
-                setBooks(res.data.books);
+                console.log(res.data.record.books)
+                setBooks(res.data.record.books);
                 setIsLoading(false);
             }).catch((err) => {
                 console.log("something went wrong!");
